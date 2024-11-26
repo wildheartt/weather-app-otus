@@ -1,4 +1,4 @@
-import { sum } from './sum';
+import { sum } from './functional';
 
 describe('sum', () => {
   it('return sum of two number', () => {
