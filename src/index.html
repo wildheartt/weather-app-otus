@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Weather App</h1>
+    </header>
+
+    <main>
+      <section class="search-section">
+        <form id="weather-form" class="weather-form">
+          <label for="city-search" class="visually-hidden">Search City</label>
+          <input
+            type="text"
+            id="city-search"
+            name="city-search"
+            placeholder="Enter city name"
+            aria-label="City Search"
+            required
+          />
+          <button type="submit">Show</button>
+        </form>
+      </section>
+
+      <section class="map-section">
+        <div id="map">
+          <p>Map Placeholder</p>
+        </div>
+      </section>
+
+      <section class="weather-info-section">
+        <h2>Weather Info</h2>
+        <div id="weather-info">
+          <p>Weather details will appear here.</p>
+        </div>
+      </section>
+
+      <aside class="history-section">
+        <h2>History</h2>
+        <ul id="search-history">
+          <li>London</li>
+          <li>Minsk</li>
+          <li>Moscow</li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Weather App</p>
+    </footer>
+  </body>
+</html>
